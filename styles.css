@@ -1,10 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Figtree', sans-serif;
 }
 
 header {
-    background-color: #1F2937;
+    background-color: #455A64;
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -17,22 +18,22 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    color: aliceblue;
+    color: #f9faf8;
     gap: 20px;
     font-size: 18px;
     font-weight: 100;
 }
 
 .intro {
-    background-color: #1F2937;
+    background-color: #455A64;
     height: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     ;
 }
-.img {
-    height: 200px;
+.video {
+    height: 250px;
     width: 350px;
     background-color: rgb(142, 157, 170)
 }
@@ -72,12 +73,14 @@ border-radius: 10% 10% 10% 10%;
 }
 
 .section-two {
-    height: 300px;
+    height: 350px;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 20px;
     gap: 40px;
+    background-color: #CFD8DC;
+    color: #212121;
 }
 
 .textwimages {
@@ -85,15 +88,30 @@ border-radius: 10% 10% 10% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-   
     height: 150px;
+    gap: 6em;
+    font-size: 28px;
+    font-weight: bold;
     
 }
 .image-square {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 5px solid #296bc7;
     border-radius: 15%;
+    justify-content: space-between;
+}
+.image-1 {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 11%;
+}
+.image-4 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 11%;
 }
 h2 {
     font-size: 36px;
@@ -101,16 +119,15 @@ h2 {
     color: #1F2937;
 }
 .section-two li {
-    width: 100px;
+    width: 160px;
     text-align:center;
-    font-size: 16px;
-    padding: 0 20px 0 20px;
+    font-size: 18px;
 }
 .quote {
-    background-color: #e5e7eb;
+    background-color: #455A64;
     height: 250px;
     font-size: 36px;
-    color: #1F2937;
+    color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +147,7 @@ h2 {
     align-items: center;
 }
 .action-container {
-    background-color: #3882f6;
+    background-color: #536DFE;
     height: 50%;
     width: 60%;
     border: 5px solid #296bc7;
@@ -148,4 +165,8 @@ width: 20%;
 height: 40px;
 font-weight: bold;
 border-radius: 10% 10% 10% 10%;
+}
+
+iframe {
+    padding-bottom: 200px;
 }
